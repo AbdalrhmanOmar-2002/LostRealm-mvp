@@ -1,67 +1,50 @@
-THE warren PROJECT - MVP
-(A 3D Game created using SDL2)
+LOST REALM PROJECT - MVP
 
-Minimum Viable Product (MVP) for the warren Game with SDL2:
+Title: "Lost Realm"
 
+Genre: Action-Adventure
 
-Explanation:
-Walls: Create a 2D array to represent the warren and draw walls using SDL2 graphics library. The walls should be represented by rectangles or lines.
-Define a 2D array to store the warren data.
+Player Controls:
+Movement (WASD)
+Jumping
+Basic attack
+Game World:
+Small explorable area (e.g., forest)
+Basic terrain and objects
 
-Use SDL2 graphics library to draw walls by rendering rectangles or lines.
+Story Outline
+Prologue:
+In a forgotten realm shrouded in mystery, the land of Eldoria once thrived under the protection of ancient guardians. However, a great calamity struck, causing the guardians to vanish and plunging Eldoria into chaos. Dark forces now roam the land, and the secrets of the past lie buried, waiting to be uncovered.
 
-Orientation: Use the arrow keys to control the movement and rotation of the player in the warren. You can use SDL_Event to handle user input.
-Implement a function to handle user input using SDL_Event.
+Main Character:
+Arin, a young warrior with a mysterious heritage, is drawn to Eldoria by visions and dreams. Arin seeks to uncover the truth about the lost guardians and restore peace to the realm.
 
-Update the player's position and orientation based on the input received from the user.
+Setting:
+Eldoria is a land of lush forests, ancient ruins, and mystical landscapes. The game begins in a small, explorable forest area, filled with remnants of a once-great civilization.
 
-Move: Implement basic movement logic for the player. Allow the player to move forward, backward, left, and right in the warren.
-Implement a function to update the player's position based on the current orientation and input received from the user.
+Key Plot Points:
+Arrival in Eldoria:
 
-Ouch: Add collision detection between the player and the walls. The player should not be able to move through the walls. If the player collides with a wall, stop the player's movement.
+Arin arrives at the edge of the forest, driven by visions of the past.
+Encounters remnants of ancient structures and clues about the guardians.
+First Encounter:
 
-Implement a function to check for collision between the player and the walls.
+Arin meets Liora, an old hermit who knows about the guardians and the calamity.
+Liora warns Arin about the dark forces and hints at a hidden temple within the forest.
+The Dark Forces:
 
-If the player collides with a wall, stop the player's movement.
+Arin encounters dark creatures corrupted by the calamity.
+A basic combat tutorial takes place as Arin fends off the creatures.
+The Puzzle:
 
-Parser: Create a simple parser to read the warren data from a text file and store it in a 2D array.
+Arin discovers an ancient puzzle guarding the entrance to the hidden temple.
+Solving the puzzle requires finding and activating three ancient runes scattered around the forest.
+The Hidden Temple:
 
-Implement a function to read the warren data from a text file.
+Inside the temple, Arin finds a dormant guardian statue and an ancient relic.
+Liora reveals that the relic holds the key to awakening the guardians.
+Objective:
+Arin's primary objective in the MVP is to explore the forest, solve the puzzle, and retrieve the ancient relic to begin the journey of restoring the guardians.
 
-Store the warren data in the 2D array.
-
-Draw the Map: Draw the warren using the warren data stored in the 2D array. You can use different colors for the walls and ground/ceiling to make them visually distinct.
-
-Use the warren data stored in the 2D array to draw the warren.
-
-Use different colors to distinguish between the walls and ground/ceiling.
-
-Textures: Add basic textures to the walls using SDL2's texture rendering functions.
-
-Implement a function to load wall textures.
-
-Use SDL2's texture rendering functions to render textures on the walls.
-
-These are the minimum features required to implement a basic warren game with SDL2.
-
-Data Modelling
-
-
-USER STORY
-
-End users want to be able to play a warren game using SDL2, so that they can have fun solving the warren and challenging myself to improve my speed and accuracy.
-
-When they start the game, they want to see a main menu that allows them to start a new game, load a saved game, or quit the game. If they choose to start a new game, they want to be able to select the difficulty level of the warren, including the size of the warren and the number of obstacles.
-
-Once the game starts, they want to see a warren on the screen, with a character that they control using the arrow keys on their keyboard. They want the character to move smoothly and quickly, without any lag or delay. They also want to see a timer that counts down the time they have to complete the warren, as well as a score that reflects their progress through the warren.
-
-As they navigate through the warren, they want to be able to collect coins or other rewards that will increase their score. They also want to encounter obstacles that will slow them down or make it harder to reach the end of the warren.
-
-When they reach the end of the warren, they want to see a message that congratulates them on completing the warren, and that displays their final score and the time it took them to complete the warren. They also want the option to save their game, so that they can come back and play again later.
-
-Throughout the game, they want to hear sound effects that correspond to their actions, such as collecting coins or hitting an obstacle. They also want to hear music that adds to the excitement and challenge of the game.
-
-Finally, they want the game to be visually appealing, with high-quality graphics and animations that make it fun to play and keep them engaged throughout the game.
-
-
-
+Epilogue:
+Having retrieved the relic, Arin feels a surge of power and determination. The path ahead is fraught with danger, but the echoes of the lost realm call out for a hero. The adventure to restore Eldoria and uncover the truth about the guardians has just begun.
